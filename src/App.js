@@ -32,6 +32,7 @@ function App() {
         <div className="lowerSide">
           <div className="listItems"><img src={home} alt="" className="listItemsImg" /> Home</div>
           <div className="listItems"><img src={saved} alt="" className="listItemsImg" /> Saved</div>
+          <div className="listItems"><img src={saved} alt="" className="listItemsImg" /> History</div>
           <div className="listItems"><img src={rocket} alt="" className="listItemsImg" /> Upgrade to pro</div>
         </div>
       </div>
