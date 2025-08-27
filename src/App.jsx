@@ -1,31 +1,14 @@
-
-import './App.css'
+import "./App.css";
+import "tailwindcss";
 
 function App() {
-  
-  let counter = 5;
-
-  const addValue = ()=>{
-    counter = counter+1;
-    console.log("hii" , counter)
-  }
-
+ 
 
   return (
     <>
-    <h1>{counter}</h1>
-
-    <button className='add'
-    onClick={addValue}
-    
-    
-    >add value</button>
-    <button className='remove'>remove vale</button>
-
-
-      
+     <h1 className="bg-amber-400 text-black">hii</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
