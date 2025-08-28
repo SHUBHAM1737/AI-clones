@@ -5,8 +5,8 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold mb-4">Counter App</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 flex">
+      <h1 className="text-3xl font-bold mb-4 flex">Counter App</h1>
       
       <p className="text-2xl mb-4">Count: {count}</p>
 
