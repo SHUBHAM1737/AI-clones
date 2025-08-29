@@ -1,6 +1,6 @@
 import React from "react";
 
-function Nav() {
+function Nav({name , email}) {
   return (
     <nav className="flex items-center justify-between px-6 py-4 bg-blue-600 shadow-md">
       {/* Logo / Brand */}
@@ -8,8 +8,8 @@ function Nav() {
 
       {/* Links */}
       <ul className="flex gap-6 text-white font-medium">
-        <li className="hover:text-gray-200 cursor-pointer">Home</li>
-        <li className="hover:text-gray-200 cursor-pointer">About</li>
+        <li className="hover:text-gray-200 cursor-pointer">{name }</li>
+        <li className="hover:text-gray-200 cursor-pointer">{email}</li>
         <li className="hover:text-gray-200 cursor-pointer">Services</li>
         <li className="hover:text-gray-200 cursor-pointer">Contact</li>
       </ul>

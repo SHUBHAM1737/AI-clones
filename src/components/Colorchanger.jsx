@@ -1,0 +1,37 @@
+import React, { useState } from "react";
+
+function Colorchanger() {
+  const [color, setColor] = useState("olive");
+
+  let change = () => {
+    setColor("red");
+    console.log("dsfdf");
+  };
+
+  let changetogreen = () =>{
+     setColor("green")
+  }
+
+  let yellow = () => {
+    setColor("yellow")
+  }
+  return (
+    <>
+      
+      <div>Colorchanger</div>
+      <button style={{ backgroundColor: color }} onClick={change}>
+        red
+      </button>
+
+
+      <button  style={{backgroundColor: color}}
+      onClick={changetogreen}
+      
+      >green</button>
+
+      <button style={{backgroundColor: color}} onClick={yellow}>yellow</button>
+    </>
+  );
+}
+
+export default Colorchanger;
