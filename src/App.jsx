@@ -1,17 +1,9 @@
 import Colorchanger from "./components/Colorchanger";
 
 function App() {
-
-  
-
-  
-
   return (
     <>
-    <Colorchanger/>
-
-
-  
+      <Colorchanger />
     </>
   );
 }

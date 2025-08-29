@@ -15,6 +15,9 @@ function Colorchanger() {
   let yellow = () => {
     setColor("yellow")
   }
+  let pinkC = () =>{
+    setColor("pink")
+  }
   return (
     <>
       
@@ -30,6 +33,9 @@ function Colorchanger() {
       >green</button>
 
       <button style={{backgroundColor: color}} onClick={yellow}>yellow</button>
+
+      <button 
+      style={{backgroundColor: color}} onClick={ pinkC}> pink</button>
     </>
   );
 }
