@@ -1,12 +1,14 @@
 
 import './App.css'
+import InputBox from './components/InputBox'
 
 function App() {
   
   return (
     <>
 
-    <h1 className='bg-amber-300'>ghkdl;dfh</h1>
+   
+    <InputBox/>
     </>
   )
 }
